@@ -1,4 +1,4 @@
-from torchtrainer.callbacks.trainingcallback import TrainingCallback
+from torchtrainer.callbacks.training_callback import TrainingCallback
 from torchnet.meter import AverageValueMeter
 
 class CalculateLossCallback(TrainingCallback):

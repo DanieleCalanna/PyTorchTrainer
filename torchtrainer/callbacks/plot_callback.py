@@ -1,5 +1,5 @@
-from torchtrainer.callbacks.trainingcallback import TrainingCallback
-from torchtrainer.utils.epochsplotter import EpochsPlotter
+from torchtrainer.callbacks.training_callback import TrainingCallback
+from torchtrainer.utils.epochs_plotter import EpochsPlotter
 
 class PlotCallback(TrainingCallback):
 	def __init__(self, folder_path, labels_map, columns):

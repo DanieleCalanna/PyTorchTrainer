@@ -1,4 +1,4 @@
-from torchtrainer.callbacks.trainingcallback import TrainingCallback
+from torchtrainer.callbacks.training_callback import TrainingCallback
 from torchtrainer.trainer import Mode
 
 class LRBatchSchedulerCallBack(TrainingCallback):

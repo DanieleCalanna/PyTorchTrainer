@@ -6,9 +6,7 @@ import matplotlib
 from matplotlib import pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
-
 class EpochsPlotter:
-
 	def __init__(self, folder_path, labels=None, columns=None, load=True):
 		self.folder_path = folder_path
 		self.exp_name = os.path.basename(os.path.normpath(folder_path))

@@ -1,6 +1,6 @@
-from torchtrainer.callbacks.trainingcallback import TrainingCallback
+from torchtrainer.callbacks.training_callback import TrainingCallback
 
-class SetTQDMBarDescription(TrainingCallback):
+class SetTQDMBarDescriptionCallback(TrainingCallback):
 	def __init__(self, keys=["Loss", "Accuracy"]):
 		self.keys = keys
 

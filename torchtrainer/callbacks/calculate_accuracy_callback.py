@@ -1,7 +1,7 @@
 import torch
 from torchnet.meter import AverageValueMeter
 #from sklearn.metrics import accuracy_score
-from torchtrainer.callbacks.trainingcallback import TrainingCallback
+from torchtrainer.callbacks.training_callback import TrainingCallback
 
 class CalculateTopNAccuracyCallback(TrainingCallback):
 	def __init__(self, keys=('Top-1 accuracy',), topk=(1,)):
